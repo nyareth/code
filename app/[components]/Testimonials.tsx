@@ -1,22 +1,21 @@
-import Image from "next/image";
 import React from "react";
 import Test from "./Test";
 
 const Testimonials = () => {
   return (
-    <div className="">
-      <h1 className="text-6xl mb-2 mars">What our clients have to say</h1>
-      <div className="w-full mb-20 flex items-center justify-between">
+    <div className="flex justify-center w-4/5 flex-col" id="testimonials">
+      <h1 className="text-6xl mb-2 mars ">What our clients have to say</h1>
+      <div className=" md:mb-20 flex items-center justify-between">
         <p>
           Clients testimonials praising our service, reliability and dedication
           to exceeding expectations speak volumes about our commitment
         </p>
-        <button className="bg-blue-500 rounded-full p-2 w-[150px]">
+        <button className="bg-blue-500 max-sm:hidden rounded-full p-2 w-[150px]">
           Contact Us
         </button>
       </div>
 
-      <div className="flex">
+      <div className="flex max-sm:space-x-0 max-sm:justify-center max-sm:w-full max-sm:flex-wrap max-sm:space-y-2 max-sm:p-4 space-x-2">
         <Test
           name="Lea Bess"
           pfp="/Lea.jpg"

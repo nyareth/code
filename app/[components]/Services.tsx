@@ -27,7 +27,7 @@ const Services = () => {
       </div>
 
       {/* Services */}
-      <div>
+      <div id="services">
         <div className="mb-16">
           <h1 className="text-6xl mb-2 mars">Our Services</h1>
           <p>
@@ -35,7 +35,7 @@ const Services = () => {
             our dynamic suite of offerings
           </p>
         </div>
-        <div className="flex justify-center space-x-5 align-center">
+        <div className="flex justify-center max-sm:flex-wrap max-sm:space-y-5 max-sm:space-x-0 space-x-5 align-center">
           <Service
             icon="/media.png"
             title="Media Management"

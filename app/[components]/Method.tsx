@@ -14,8 +14,8 @@ const Method = ({
       <p className="border-2 border-blue-500 mx-auto px-10 py-2 w-fit rounded-full">
         Step {no}
       </p>
-      <h1 className="text-3xl my-4"> {title} </h1>
-      <p> {body} </p>
+      <h1 className="text-3xl my-4 max-sm:text-xl font-semibold"> {title} </h1>
+      <p className="max-sm:text-sm"> {body} </p>
     </div>
   );
 };

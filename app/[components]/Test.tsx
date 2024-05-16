@@ -9,8 +9,8 @@ const Test = (props: {
   rating: number;
 }) => {
   return (
-    <div className="p-4 w-[390px] h-[280px] rounded-md bg-white m-2">
-      <div className="flex items-center mb-5 space-x-10">
+    <div className="p-4 w-[400px] rounded-md bg-white">
+      <div className="flex items-center max-sm:justify-around mb-5 space-x-10">
         <Image
           src={props.pfp}
           width={100}
@@ -26,7 +26,7 @@ const Test = (props: {
           <StarIcon className="text-yellow-500" />
         </div>
       </div>
-      <p className="text-gray-800"> {props.comment} </p>
+      <p className="text-gray-800 max-sm:text-left"> {props.comment} </p>
       <p className="text-slate-400"> {props.name} </p>
     </div>
   );

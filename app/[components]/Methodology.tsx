@@ -10,7 +10,7 @@ const Methodology = () => {
           We have proven systems to make sure you have a seamless experience
         </p>
       </>
-      <div className="flex mt-16">
+      <div className="flex mt-16 max-sm:flex-col max-sm:justify-center max-sm:items-center">
         <Method
           no="1"
           title="Analysis"

@@ -19,6 +19,11 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  @apply mt-10 max-sm:text-3xl;
+}
+
+.body {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {

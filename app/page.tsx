@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Header from "./[components]/Header";
 import Hero from "./[components]/Hero";
 import Services from "./[components]/Services";
 import Testimonials from "./[components]/Testimonials";
@@ -10,8 +8,8 @@ import Footer from "./[components]/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen space-y-28 flex-col text-white text-center items-center">
-      <Header />
+    <main className="flexspace-y-28 max-sm:space-y-2 flex-col overflow-x-hidden text-white text-center items-center">
+      {/* <Header /> */}
       <Hero />
       <Services />
       <Testimonials />
