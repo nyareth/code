@@ -8,7 +8,7 @@ import Footer from "./[components]/Footer";
 
 export default function Home() {
   return (
-    <main className="flexspace-y-28 max-sm:space-y-2 flex-col overflow-x-hidden text-white text-center items-center">
+    <main className="flex space-y-28 max-sm:space-y-2 flex-col overflow-x-hidden justify-center text-white text-center items-center">
       {/* <Header /> */}
       <Hero />
       <Services />
