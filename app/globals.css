@@ -3,11 +3,20 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
+::-webkit-scrollbar {
+  @apply bg-gradient-to-b from-gray-900 to-gray-800;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-500;
+}
+
 .action {
   @apply bg-blue-500 rounded-full p-2 w-[150px];
 }
 .number_title {
-  @apply text-4xl font-bold text-blue-500;
+  @apply text-4xl font-bold text-blue-500 max-sm:text-lg;
 }
 
 .sxn {

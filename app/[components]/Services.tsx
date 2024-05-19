@@ -3,25 +3,25 @@ import Service from "./Service";
 
 const Services = () => {
   return (
-    <div className="w-full flex-col  space-y-24 flex justify-center">
+    <div className="w-full flex-col  space-y-24 max-sm:space-y-8 flex justify-center">
       {/* Numbers / Credentials */}
       <div>
-        <div className="sxn mb-16">
+        <div className="sxn mb-16 max-sm:mb-4">
           <h1 className="text-6xl mb-2 mars">Boost Sales with Advertising</h1>
           <p>Trust our agency by numbers</p>
         </div>
-        <div className="flex w-full justify-center space-x-10 divide-slate-500 divide-x-2">
-          <div className="flex flex-col px-5 ">
+        <div className="flex w-full justify-center items-center space-x-10 divide-slate-500 divide-x-2">
+          <div className="flex flex-col px-5  max-sm:px-2">
             <div className="number_title">50% CPA</div>
-            <p className="text-sm">On Average</p>
+            <p className="text-sm max-sm:text-xs">On Average</p>
           </div>
-          <div className="flex flex-col px-5 ">
-            <div className="number_title">$100k</div>
-            <p className="text-sm">Advertising Investment</p>
+          <div className="flex flex-col px-5  max-sm:p-0">
+            <div className="number_title">$10,000+</div>
+            <p className="text-sm max-sm:text-xs">Advertising Investment</p>
           </div>
           <div className="flex flex-col px-5">
-            <div className="number_title">x2.0 traffic</div>
-            <p className="text-sm">On Average</p>
+            <div className="number_title">40+ </div>
+            <p className="text-sm max-sm:text-xs">Happy Clients</p>
           </div>
         </div>
       </div>

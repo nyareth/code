@@ -6,9 +6,12 @@ const Footer = () => {
     <div className="w-full text-center text-white sxn bottom-0">
       <div className="w-full border-b-2 py-3 pb-1 border-slate-400 flex justify-between">
         <h1 className="text-xl">M.I.A</h1>
-        <p className="hover:text-green-500 cursor-pointer">
+        <a
+          href="tel:+256703609866"
+          className="hover:text-green-500 cursor-pointer"
+        >
           <WhatsApp className="text-green-500" /> +256703609866
-        </p>
+        </a>
         {/* social icons */}
         <div className="flex">
           <a href="https://www.facebook.com/311324272063132">

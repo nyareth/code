@@ -10,12 +10,14 @@ const Hero = () => {
             The Best of Digital <br /> Brands And Communities
           </h1>
           <p className="text-lg text-slate-200">Maximize Your Online Impact</p>
-          <button className="action bg-blue-500">Contact Us</button>
+          <button className="action bg-blue-500">
+            <a href="/contact">Contact Us</a>
+          </button>
         </div>
         <div className="w-1/2 max-sm:hidden h-full">
           <Image
-            width={600}
-            height={720}
+            width={620}
+            height={740}
             alt="Hero Thumbnails"
             src="/thumb.png"
             className=""

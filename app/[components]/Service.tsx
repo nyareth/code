@@ -11,7 +11,7 @@ const Service = ({
   body: string;
 }) => {
   return (
-    <div className="w-[375px] p-4 rounded-md flex flex-col justify-center bg-blue-500 hover:scale-95 ease-linear duration-100 space-y-6">
+    <div className="w-[375px] p-4 rounded-md flex flex-col justify-center bg-blue-500 hover:scale-95 hover:bg-blue-600 ease-linear duration-100 space-y-6">
       <Image
         src={icon}
         width={200}

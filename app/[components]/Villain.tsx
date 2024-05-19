@@ -10,7 +10,7 @@ const Villain = () => {
           <p>Contact us for personal consultation.</p>
         </div>
         <button className="p-4 h-fit w-[200px] bg-black text-white rounded-full">
-          Contact Us
+          <a href="/contact">Contact Us</a>
         </button>
       </div>
       <div className="flex justify-around items-center ">

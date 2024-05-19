@@ -1,6 +1,6 @@
 import Hero from "./[components]/Hero";
 import Services from "./[components]/Services";
-import Testimonials from "./[components]/Testimonials";
+// import Testimonials from "./[components]/Testimonials";
 import Methodology from "./[components]/Methodology";
 import Villain from "./[components]/Villain";
 import FAQ from "./[components]/FAQ";
@@ -12,7 +12,7 @@ export default function Home() {
       {/* <Header /> */}
       <Hero />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Methodology />
       <Villain />
       <FAQ />

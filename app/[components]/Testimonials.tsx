@@ -11,7 +11,7 @@ const Testimonials = () => {
           to exceeding expectations speak volumes about our commitment
         </p>
         <button className="bg-blue-500 max-sm:hidden rounded-full p-2 w-[150px]">
-          Contact Us
+          <a href="/contact">Contact Us</a>
         </button>
       </div>
 
